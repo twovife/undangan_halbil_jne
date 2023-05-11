@@ -7,15 +7,9 @@ const roboto = Roboto({
   weight: ["400"],
 });
 
-const poppins = Poppins({
-  subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-  style: ["normal", "italic"],
-});
-
 export default function Date({ sesi }) {
   return (
-    <section id="dates" className={`flex flex-col items-stretch py-12 bg-brand-putih ${poppins.className}`}>
+    <section id="dates" className={`flex flex-col items-stretch py-12 bg-brand-putih ${roboto.className}`}>
       <h2 data-aos="fade-down" className={`text-3xl text-black text-center mb-6 ${roboto.className}`}>
         Save The Date
       </h2>

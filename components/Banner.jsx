@@ -1,11 +1,6 @@
 import Image from "next/image";
-import { Alex_Brush, Oleo_Script, Poppins, Roboto } from "next/font/google";
+import { Oleo_Script, Roboto } from "next/font/google";
 import { useState } from "react";
-
-const poppins = Poppins({
-  subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-});
 
 const oleoScript = Oleo_Script({ subsets: ["latin"], weight: ["400"] });
 const roboto = Roboto({ subsets: ["latin"], weight: ["500"] });
@@ -20,7 +15,7 @@ export default function Banner({ to, onOpen }) {
       }`}>
       <div className="absolute z-10 min-w-full min-h-screen"></div>
       <div className="absolute z-0 min-w-full h-screen bg-center bg-cover bg-cover-welcome"></div>
-      <section className={`absolute z-20 flex h-full min-w-full flex-col justify-between items-center py-16 ${poppins.className}`}>
+      <section className={`absolute z-20 flex h-full min-w-full flex-col justify-between items-center py-16 ${roboto.className}`}>
         <div data-aos="fade">
           <h1 className={`text-brand-biru text-3xl text-center ${roboto.className}`}>Undangan</h1>
           <h1 className={`text-brand-biru text-6xl text-center mt-5 ${oleoScript.className}`}>Halal Bihalal</h1>

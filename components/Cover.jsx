@@ -1,14 +1,8 @@
 import "add-to-calendar-button";
 
 import Image from "next/image";
-import { Cormorant, Alex_Brush, Poppins, Oleo_Script, Roboto } from "next/font/google";
+import { Oleo_Script, Roboto } from "next/font/google";
 import CountdownTimer from "./CountdownTimer";
-
-const poppins = Poppins({
-  subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-  style: ["normal", "italic"],
-});
 
 const oleoScript = Oleo_Script({ subsets: ["latin"], weight: ["400"] });
 const roboto = Roboto({ subsets: ["latin"], weight: ["500"] });
@@ -17,7 +11,7 @@ export default function Cover() {
   return (
     <section
       id="cover"
-      className={`flex flex-col justify-between w-full min-h-screen bg-center bg-cover overflow-hidden bg-cover-hero ${poppins.className}`}>
+      className={`flex flex-col justify-between w-full min-h-screen bg-center bg-cover overflow-hidden bg-cover-hero ${roboto.className}`}>
       <div>
         <div data-aos="fade-down" className="flex justify-between px-10 mt-12">
           {/* <Image src="/cover-divider.svg" width={25} height={5} alt="divider" /> */}

@@ -1,31 +1,21 @@
 import "add-to-calendar-button";
+import { Oleo_Script, Roboto } from "next/font/google";
 
-import Image from "next/image";
-import { Poppins } from "next/font/google";
-
-const poppins = Poppins({
+const roboto = Roboto({
   subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-  style: ["normal", "italic"],
+  weight: ["400"],
 });
+
+const oleoScript = Oleo_Script({ subsets: ["latin"], weight: ["400"] });
 
 export default function End() {
   return (
     <div>
-      <section
-        className={`bg-cover-welcome bg-cover bg-center min-h-screen min-w-full  ${poppins.className}`}
-      >
-        <div className="absolute min-w-full min-h-screen backdrop-brightness-75"></div>
-        <div className="absolute flex flex-col items-center justify-end min-w-full min-h-screen">
-          <p className="mb-4 text-4xl font-bold">With Love</p>
-          <Image
-            src="/title.svg"
-            alt="Pernikahan Ofi & Wildan"
-            width={300}
-            height={90}
-            className="mb-20"
-          />
-        </div>
+      <section className={`bg-cover bg-center max-w-xl bg-brand-putih min-w-full h-64 py-16 ${roboto.className}`}>
+        <h1 data-aos="fade" className={`text-brand-biru text-6xl text-center ${oleoScript.className}`}>
+          Terimakasih
+        </h1>
+        <p className={`${roboto.className} text-center text-lg text-black`}>Telah meluangkan waktu untuk hadir</p>
       </section>
     </div>
   );

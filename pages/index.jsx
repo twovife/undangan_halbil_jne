@@ -1,11 +1,8 @@
 import NavMenu from "@/components/NavMenu";
 import Gallery from "@/components/Gallery";
 import Banner from "@/components/Banner";
-import Wishes from "@/components/Wishes";
 import Cover from "@/components/Cover";
 import Date from "@/components/Date";
-import Gift from "@/components/Gift";
-import End from "@/components/End";
 import Head from "next/head";
 import { Poppins } from "next/font/google";
 import { useRouter } from "next/router";
@@ -19,6 +16,7 @@ import "react-toastify/dist/ReactToastify.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Image from "next/image";
+import End from "@/components/End";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -103,6 +101,7 @@ export default function Home() {
 
         {/* GALLERT */}
         <Gallery />
+        <End />
 
         <div className="p-4 pb-16 bg-white">
           <p className="text-xs text-center text-black">© Copyright Selalu Project 2023</p>
