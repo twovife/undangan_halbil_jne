@@ -36,8 +36,6 @@ export default function Date({ sesi }) {
                 Kec. Ngadiluwih, Kediri
               </p>
             </div>
-
-            {/* <Image src="/akad-nikah.svg" alt="akad nikah" width={25} height={60} /> */}
           </div>
         </div>
         <div className="border-black border-b-2 border w-4/5 mx-auto"></div>
@@ -52,8 +50,6 @@ export default function Date({ sesi }) {
                 Akustik : Silvi & Friend
               </p>
             </div>
-
-            {/* <Image src="/akad-nikah.svg" alt="akad nikah" width={25} height={60} /> */}
           </div>
 
           <a
@@ -64,9 +60,6 @@ export default function Date({ sesi }) {
             <div className="text-xl mt-2">Maps</div>
           </a>
         </div>
-        {/* <Image data-aos="fade-down" src="/dates-divider.svg" alt="divider" width={600} height={30} className="px-4 my-6" /> */}
-
-        {/* 1 Date Info */}
       </div>
     </section>
   );

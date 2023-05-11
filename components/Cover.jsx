@@ -14,9 +14,7 @@ export default function Cover() {
       className={`flex flex-col justify-between w-full min-h-screen bg-center bg-cover overflow-hidden bg-cover-hero ${roboto.className}`}>
       <div>
         <div data-aos="fade-down" className="flex justify-between px-10 mt-12">
-          {/* <Image src="/cover-divider.svg" width={25} height={5} alt="divider" /> */}
           <h3 className={`text-brand-biru text-3xl mx-auto ${roboto.className}`}>HADIRILAH</h3>
-          {/* <Image src="/cover-divider.svg" width={25} height={5} alt="divider" /> */}
         </div>
 
         <h1 data-aos="fade" className={`text-brand-biru text-6xl text-center mt-5 ${oleoScript.className}`}>
