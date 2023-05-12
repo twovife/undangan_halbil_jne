@@ -12,7 +12,7 @@ export default function Cover() {
   return (
     <section
       id="cover"
-      className={`flex flex-col justify-between w-full min-h-screen bg-center bg-cover overflow-hidden bg-cover-hero ${roboto.className}`}>
+      className={`flex flex-col justify-between w-full min-h-screen bg-center bg-cover overflow-hidden bg-cover-hero py-14 ${roboto.className}`}>
       <div>
         <div data-aos="fade-down" className="flex justify-between px-10 mt-12">
           <h3 className={`text-brand-biru text-3xl mx-auto ${roboto.className}`}>HADIRILAH</h3>
@@ -27,7 +27,7 @@ export default function Cover() {
         </h3>
       </div>
 
-      <div data-aos="fade" className="mb-14">
+      <div data-aos="fade-down">
         {/* Countdown Timer */}
         <CountdownTimer targetTime={new Date("May 14, 2023 08:00:00")} />
         <a
