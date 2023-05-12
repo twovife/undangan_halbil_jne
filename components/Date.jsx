@@ -28,7 +28,8 @@ export default function Date() {
               <div className="text-3xl font-semibold text-brand-birutua mb-3">Minggu</div>
               <div className="flex justify-center gap-5">
                 <div className="flex-1 p-4 pr-0">
-                  <div className="text-right text-md lg:text-2xl font-light">
+                  <div className="text-right text-md lg:text-xl">JNE KP. NGADILUWIH</div>
+                  <div className="text-right text-md lg:text-xl font-light">
                     Jl. Prof. Dr. Mustopo No.88, Ngadiluwih,
                     <br /> Kec. Ngadiluwih, Kediri
                   </div>
