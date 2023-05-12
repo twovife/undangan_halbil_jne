@@ -25,7 +25,7 @@ export default function Gallery() {
   };
 
   return (
-    <section id="gallery" className="flex flex-col items-stretch py-12 bg-brand-biru px-6">
+    <section id="gallery" className="flex flex-col items-stretch py-12 bg-brand-biru px-6 max-w-xl">
       <h2 data-aos="fade-down" className={`text-3xl text-black text-center mb-6 ${roboto.className}`}>
         Kebersamaan Kita
       </h2>
@@ -35,23 +35,23 @@ export default function Gallery() {
         plugins={[lgZoom, lgThumbnail, lgAutoPlay, lgPager]}
         elementClassNames="grid grid-cols-6 gap-x-2 gap-y-3"
         mode="lg-fade">
-        <a data-aos="fade" href="/img/jnegaleri1.jpeg" className="col-span-6">
-          <img alt="Galeri 1" src="/img/jnegaleri1.jpeg" className=" h-full object-cover rounded-lg" />
+        <a data-aos="fade" href="/img/jnegaleri1.jpeg" className="col-span-6 object-cover">
+          <img alt="Galeri 1" src="/img/jnegaleri1.jpeg" className="object-cover rounded-lg" />
         </a>
-        <a data-aos="fade" href="/img/jneimg01.png" className="col-span-2">
-          <img alt="Galeri 2" src="/img/jneimg01.jpeg" className=" h-full object-cover rounded-lg" />
+        <a data-aos="fade" href="/img/jneimg01.png" className="col-span-2 object-cover">
+          <img alt="Galeri 2" src="/img/jneimg01.jpeg" className="object-cover rounded-lg" />
         </a>
-        <a data-aos="fade" href="/img/jneimg02.jpeg" className="col-span-2">
-          <img alt="Galeri 3" src="/img/jneimg02.jpeg" className="h-full object-cover rounded-lg" />
+        <a data-aos="fade" href="/img/jneimg02.jpeg" className="col-span-2 object-cover">
+          <img alt="Galeri 3" src="/img/jneimg02.jpeg" className="object-cover rounded-lg" />
         </a>
-        <a data-aos="fade" href="/img/jneimg03.jpeg" className="col-span-2">
-          <img alt="Galeri 4" src="/img/jneimg03.jpeg" className="h-full object-cover rounded-lg" />
+        <a data-aos="fade" href="/img/jneimg03.jpeg" className="col-span-2 object-cover">
+          <img alt="Galeri 4" src="/img/jneimg03.jpeg" className="object-cover rounded-lg" />
         </a>
-        <a data-aos="fade" href="/img/jneimg04.jpeg" className="col-span-3">
-          <img alt="Galeri 5" src="/img/jneimg04.jpeg" className="h-full object-cover rounded-lg" />
+        <a data-aos="fade" href="/img/jneimg04.jpeg" className="col-span-3 object-cover">
+          <img alt="Galeri 5" src="/img/jneimg04.jpeg" className="object-cover rounded-lg" />
         </a>
-        <a data-aos="fade" href="/img/jneimg06.jpeg" className="col-span-3">
-          <img alt="Galeri 6" src="/img/jneimg06.jpeg" className="h-full object-cover rounded-lg" />
+        <a data-aos="fade" href="/img/jneimg06.jpeg" className="col-span-3 object-cover">
+          <img alt="Galeri 6" src="/img/jneimg06.jpeg" className="object-cover rounded-lg" />
         </a>
       </LightGallery>
     </section>

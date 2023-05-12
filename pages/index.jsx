@@ -55,7 +55,7 @@ export default function Home() {
       duration: 500,
     });
 
-    setAudio(new Audio("/music/tulus.mp3"));
+    setAudio(new Audio("/music/idulfitri.mp3"));
 
     window.addEventListener("scroll", handleScroll);
 
