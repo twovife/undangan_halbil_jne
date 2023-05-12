@@ -42,7 +42,7 @@ export default function Date() {
               </div>
               <div className="text-black">
                 <div className="font-semibold mt-4 text-3xl">Special Perform</div>
-                <div className={`${alexBrush.className} text-2xl lg:text-6xl mt-3`}>Silvi & Friends</div>
+                <div className={`${alexBrush.className} text-3xl lg:text-6xl mt-3`}>Silvi & Friends</div>
                 <div className="font-semibold">BAND</div>
               </div>
             </div>
