@@ -28,21 +28,21 @@ export default function Date() {
               <div className="text-3xl font-semibold text-brand-birutua mb-3">Minggu</div>
               <div className="flex justify-center gap-5">
                 <div className="flex-1 p-4 pr-0">
-                  <div className="text-right text-2xl font-light">
+                  <div className="text-right text-xl lg:text-2xl font-light">
                     Jl. Prof. Dr. Mustopo No.88, Ngadiluwih,
                     <br /> Kec. Ngadiluwih, Kediri
                   </div>
                 </div>
                 <div className="flex-1 text-left bg-blue-300 text-white p-4 pl-0">
-                  <div className="text-5xl font-thin">14 Mei</div>
-                  <div className="text-4xl font-thin">2023</div>
-                  <div className="text-5xl font-thin">08:00 WIB</div>
+                  <div className="text-2xl xl:text-5xl font-thin">14 Mei</div>
+                  <div className="text-xl xl:text-4xl font-thin">2023</div>
+                  <div className="text-2xl xl:text-5xl font-thin">08:00 WIB</div>
                   <small className="text-sm text-right">s/d selesai</small>
                 </div>
               </div>
               <div className="text-black">
                 <div className="font-semibold mt-4 text-3xl">Special Perform</div>
-                <div className={`${alexBrush.className} text-6xl mt-3`}>Silvi & Friends</div>
+                <div className={`${alexBrush.className} text-2xl lg:text-6xl mt-3`}>Silvi & Friends</div>
                 <div className="font-semibold">BAND</div>
               </div>
             </div>
