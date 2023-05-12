@@ -26,8 +26,8 @@ export default function Gallery() {
 
   return (
     <section id="gallery" className="flex flex-col items-stretch py-12 bg-brand-biru px-6 max-w-xl">
-      <h2 data-aos="fade-down" className={`text-3xl text-black text-center mb-6 ${roboto.className}`}>
-        Kebersamaan Kita
+      <h2 data-aos="fade-down" className={`text-xl text-black text-center mb-6 ${roboto.className}`}>
+        Kebersamaan Kita di Tahun 1443 H
       </h2>
       <LightGallery
         onInit={onInit}
