@@ -38,7 +38,7 @@ export default function Gallery() {
         <a data-aos="fade" href="/img/jnegaleri1.jpeg" className="col-span-6 object-cover">
           <img alt="Galeri 1" src="/img/jnegaleri1.jpeg" className="object-cover rounded-lg" />
         </a>
-        <a data-aos="fade" href="/img/jneimg01.png" className="col-span-2 object-cover">
+        <a data-aos="fade" href="/img/jneimg01.jpeg" className="col-span-2 object-cover">
           <img alt="Galeri 2" src="/img/jneimg01.jpeg" className="object-cover rounded-lg" />
         </a>
         <a data-aos="fade" href="/img/jneimg02.jpeg" className="col-span-2 object-cover">
