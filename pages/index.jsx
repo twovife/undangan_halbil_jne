@@ -103,7 +103,7 @@ export default function Home() {
         <Gallery />
         <End />
 
-        <div className="p-4 pb-16 bg-white">
+        <div className="p-4 bg-white">
           <p className="text-xs text-center text-black">© Copyright Selalu Project 2023</p>
         </div>
 

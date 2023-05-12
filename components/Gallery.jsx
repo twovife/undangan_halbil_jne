@@ -12,7 +12,6 @@ import lgThumbnail from "lightgallery/plugins/thumbnail";
 import lgZoom from "lightgallery/plugins/zoom";
 import lgAutoPlay from "lightgallery/plugins/autoplay";
 import lgPager from "lightgallery/plugins/pager";
-
 import { Roboto } from "next/font/google";
 
 const roboto = Roboto({
@@ -39,20 +38,20 @@ export default function Gallery() {
         <a data-aos="fade" href="/img/jnegaleri1.jpeg" className="col-span-6">
           <img alt="Galeri 1" src="/img/jnegaleri1.jpeg" className=" h-full object-cover rounded-lg" />
         </a>
-        <a data-aos="fade" href="/img/jnebg1.png" className="col-span-2">
-          <img alt="Galeri 2" src="/img/jnebg1.png" className=" h-full object-cover rounded-lg" />
+        <a data-aos="fade" href="/img/jneimg01.png" className="col-span-2">
+          <img alt="Galeri 2" src="/img/jneimg01.jpeg" className=" h-full object-cover rounded-lg" />
         </a>
-        <a data-aos="fade" href="/img/jnebg2.png" className="col-span-2">
-          <img alt="Galeri 3" src="/img/jnebg2.png" className="h-full object-cover rounded-lg" />
+        <a data-aos="fade" href="/img/jneimg02.jpeg" className="col-span-2">
+          <img alt="Galeri 3" src="/img/jneimg02.jpeg" className="h-full object-cover rounded-lg" />
         </a>
-        <a data-aos="fade" href="/img/jnebg1.png" className="col-span-2">
-          <img alt="Galeri 4" src="/img/jnebg1.png" className="h-full object-cover rounded-lg" />
+        <a data-aos="fade" href="/img/jneimg03.jpeg" className="col-span-2">
+          <img alt="Galeri 4" src="/img/jneimg03.jpeg" className="h-full object-cover rounded-lg" />
         </a>
-        <a data-aos="fade" href="/img/jnebg2.png" className="col-span-3">
-          <img alt="Galeri 5" src="/img/jnebg2.png" className="h-full object-cover rounded-lg" />
+        <a data-aos="fade" href="/img/jneimg04.jpeg" className="col-span-3">
+          <img alt="Galeri 5" src="/img/jneimg04.jpeg" className="h-full object-cover rounded-lg" />
         </a>
-        <a data-aos="fade" href="/img/jnebg1.png" className="col-span-3">
-          <img alt="Galeri 6" src="/img/jnebg1.png" className="h-full object-cover rounded-lg" />
+        <a data-aos="fade" href="/img/jneimg06.jpeg" className="col-span-3">
+          <img alt="Galeri 6" src="/img/jneimg06.jpeg" className="h-full object-cover rounded-lg" />
         </a>
       </LightGallery>
     </section>

@@ -1,8 +1,10 @@
-import Image from "next/image";
-import { Oleo_Script, Roboto } from "next/font/google";
+import { Alex_Brush, Roboto } from "next/font/google";
 import { useState } from "react";
 
-const oleoScript = Oleo_Script({ subsets: ["latin"], weight: ["400"] });
+const alexBrush = Alex_Brush({
+  subsets: ["latin"],
+  weight: ["400"],
+});
 const roboto = Roboto({ subsets: ["latin"], weight: ["500"] });
 export default function Banner({ to, onOpen }) {
   const [isShow, setIsShow] = useState(true);
@@ -18,7 +20,7 @@ export default function Banner({ to, onOpen }) {
       <section className={`absolute z-20 flex h-full min-w-full flex-col justify-between items-center py-16 ${roboto.className}`}>
         <div data-aos="fade">
           <h1 className={`text-brand-biru text-3xl text-center ${roboto.className}`}>Undangan</h1>
-          <h1 className={`text-brand-biru text-6xl text-center mt-5 ${oleoScript.className}`}>Halal Bihalal</h1>
+          <h1 className={`text-brand-biru text-6xl text-center mt-5 ${alexBrush.className}`}>Halal Bihalal</h1>
         </div>
         <div className="items-center px-6 py-4 mx-6 rounded-xl bg-gradient-to-t from-brand-birutua to-brand-biru">
           <p className="text-xs font-medium text-center text-white">Kepada Yth. Bapak/Ibu/Saudara/i</p>
